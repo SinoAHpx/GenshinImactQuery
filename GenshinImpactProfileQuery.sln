@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenshinImpactProfileQuery", "GenshinImpactProfileQuery.csproj", "{9723FFE7-3A77-4A59-943D-D99D33408332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenshinQueryTester", "..\GenshinQueryTester\GenshinQueryTester.csproj", "{A0B44FBC-F931-408A-B272-99DBC72DF300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9723FFE7-3A77-4A59-943D-D99D33408332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9723FFE7-3A77-4A59-943D-D99D33408332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9723FFE7-3A77-4A59-943D-D99D33408332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9723FFE7-3A77-4A59-943D-D99D33408332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B44FBC-F931-408A-B272-99DBC72DF300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B44FBC-F931-408A-B272-99DBC72DF300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B44FBC-F931-408A-B272-99DBC72DF300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B44FBC-F931-408A-B272-99DBC72DF300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F62030A-873B-4894-BD6C-9DF4B85AFB9A}
+	EndGlobalSection
+EndGlobal
