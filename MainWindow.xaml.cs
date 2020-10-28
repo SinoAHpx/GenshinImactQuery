@@ -32,6 +32,8 @@ namespace GenshinImpactProfileQuery
             if (!uid.IsNumber())
                 return;
 
+            ListViewRoles.Items.Clear();
+
             //开始加载
             var loading = new LoadingWindow
             {

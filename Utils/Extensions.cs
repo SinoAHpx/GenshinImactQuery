@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace GenshinImpactProfileQuery.Utils
 {
@@ -48,6 +50,19 @@ namespace GenshinImpactProfileQuery.Utils
                 default:
                     return source;
             }
+        }
+
+        public static string GetMd5(this string str)
+        {
+            var md5 = MD5.Create();
+            var buffer = Encoding.Default.GetBytes(str);
+            var bufferMd5 = md5.ComputeHash(buffer);
+            var sb = new StringBuilder();
+
+            foreach (var t in bufferMd5)
+                sb.Append(t.ToString("x2"));
+
+            return sb.ToString();
         }
     }
 }
